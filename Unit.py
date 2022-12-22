@@ -6,7 +6,7 @@ from main import mul
 
 class TestCalculator(unittest.TestCase):
   def test_sum(self):
-    self.assertEqual(sum(4,7), 11)
+    self.assertEqual(sum(400,7), 11)
   def test_sub(self):
     self.assertEqual(sub(10,5), 5)
   def test_mul(self):
